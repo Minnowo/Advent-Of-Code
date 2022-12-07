@@ -8,7 +8,7 @@ public class day4
 {
     public static void main(String[] args) throws IOException
     {
-        Scanner reader = new Scanner(new File("./input-test.txt"));
+        Scanner reader = new Scanner(new File("./input.txt"));
 
         // regex that matches a-b,x-y where a, b, x, y are any number
         final Pattern PAIRED_PAIR_MATCHER = Pattern.compile("^(\\d+)-(\\d+),(\\d+)-(\\d+)$");
